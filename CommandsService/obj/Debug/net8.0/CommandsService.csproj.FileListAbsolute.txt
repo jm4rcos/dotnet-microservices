@@ -110,3 +110,4 @@ C:\Users\jm4rc\Desktop\DEV\dotnet\CommandsService\obj\Debug\net8.0\refint\Comman
 C:\Users\jm4rc\Desktop\DEV\dotnet\CommandsService\obj\Debug\net8.0\CommandsService.pdb
 C:\Users\jm4rc\Desktop\DEV\dotnet\CommandsService\obj\Debug\net8.0\CommandsService.genruntimeconfig.cache
 C:\Users\jm4rc\Desktop\DEV\dotnet\CommandsService\obj\Debug\net8.0\ref\CommandsService.dll
+C:\Users\jm4rc\Desktop\DEV\dotnet\CommandsService\obj\Debug\net8.0\CommandsService.sourcelink.json
