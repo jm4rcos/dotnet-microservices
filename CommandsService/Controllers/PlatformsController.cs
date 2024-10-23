@@ -9,6 +9,15 @@ namespace CommandsService.Controllers
   [ApiController]
   public class PlatformsController(ICommandRepository repository, IMapper mapper) : ControllerBase
   {    
+    [HttpGet]
+    public ActionResult<IEnumerable<PlatformReadDto>> GetPlatforms()
+    {
+      Console.WriteLine("--> Getting Platforms from Command Service");
+
+      var platformItems = repository.GetAllPlatforms(); 
+      return Ok(mapper.Map<IEnumerable<PlatformReadDto>> (platformItems));
+    }
+
     [HttpPost]
     public ActionResult TestInboundConnection()
     {
